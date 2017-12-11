@@ -1,7 +1,6 @@
-#content {
-  filter: invert(88%);
-}
-
-#content img {
-  filter: invert();
+body { background: #1f1f1f !important; } #page {
+ filter: invert(88%); 
+} 
+#page img, .ghx-grabber, span[role=img], .aui-lozenge {
+  filter: invert() !important; 
 }
